@@ -8,7 +8,7 @@ div{
 .container{
     display: flex;
 }
-.IconNamebg{
+.Navigation{
     position: absolute;
     background: #2694BA;
     width: 100px;
