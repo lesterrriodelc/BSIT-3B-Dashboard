@@ -22,6 +22,8 @@ div{
     height: 50px;
     left: 15px;
     top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     background-image: url('bars-solid.svg');
 }
 .Dash{
@@ -261,22 +263,42 @@ div{
     line-height: 23px;
     color: #000000;
 }
-.Todolistbox1{
+
+.schedulebox{
     position: absolute;
     width: 58px;
-    height: 42px;
-    left: 23px;
-    top: 55px;
-    background-image: url('1.png');
+    height: 57px;
+    left: 21px;
+    top: 56px;
+    background: #034869;
 }
 
-.Todolistbox2{
+.day
+{
     position: absolute;
-    width: 58px;
-    height: 16px;
-    left: 23px;
-    top: 96px;
-    background-image: url('month1.png');
+    width: 49px;
+    height: 61px;
+    left: 5px;
+    top: -10px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.month
+{
+    position: absolute;
+    font-family: Segoe UI;
+    left: 5px;
+    top: 42px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
 }
 .TodolistSubjCode{
     position: absolute;
@@ -331,21 +353,14 @@ div{
     color: #000000;
 }
 
-.Todolistbox11{
+.schedulebox1
+{
     position: absolute;
     width: 58px;
-    height: 42px;
-    left: 23px;
-    top: 142px;
-    background-image: url('2.png');
-}
-.Todolistbox21{
-    position: absolute;
-    width: 58px;
-    height: 16px;
-    left: 23px;
-    top: 183px;
-    background-image: url('month1.png');
+    height: 57px;
+    left: 21px;
+    top: 143px;
+    background: #034869;
 }
 .TodolistSubjCode1{
     position: absolute;
@@ -400,21 +415,14 @@ div{
     color: #000000;
 }
 
-.Todolistbox12{
+.schedulebox2
+{
     position: absolute;
     width: 58px;
-    height: 42px;
-    left: 23px;
-    top: 229px;
-    background-image: url('3.png');
-}
-.Todolistbox22{
-    position: absolute;
-    width: 58px;
-    height: 16px;
-    left: 23px;
-    top: 270px;
-    background-image: url('month1.png');
+    height: 57px;
+    left: 21px;
+    top: 230px;    
+    background: #034869;    
 }
 .TodolistSubjCode2{
     position: absolute;
@@ -469,21 +477,14 @@ div{
     color: #000000;
 }
 
-.Todolistbox13{
+.schedulebox3
+{
     position: absolute;
     width: 58px;
-    height: 42px;
-    left: 23px;
-    top: 316px;
-    background-image: url('4.png');
-}
-.Todolistbox23{
-    position: absolute;
-    width: 58px;
-    height: 16px;
-    left: 23px;
-    top: 357px;
-    background-image: url('month1.png');
+    height: 57px;
+    left: 21px;
+    top: 317px;
+    background: #034869;
 }
 .TodolistSubjCode3{
     position: absolute;
@@ -564,22 +565,14 @@ div{
     color: #000000;
 }
 
-.Donebox1{
+.schedulebox4
+{
     position: absolute;
     width: 58px;
-    height: 42px;
-    left: 23px;
-    top: 422px;
-    background-image: url('5.png');
-}
-
-.Donebox2{
-    position: absolute;
-    width: 58px;
-    height: 16px;
-    left: 23px;
-    top: 463px;
-    background-image: url('month2.png');
+    height: 57px;
+    left: 21px;
+    top: 423px;
+    background: #034869;
 }
 .DoneSubjCode{
     position: absolute;
@@ -634,21 +627,14 @@ div{
     color: #000000;
 }
 
-.Donebox11{
+.schedulebox5
+{
     position: absolute;
     width: 58px;
-    height: 42px;
-    left: 23px;
-    top: 508px;
-    background-image: url('6.png');
-}
-.Donebox21{
-    position: absolute;
-    width: 58px;
-    height: 16px;
-    left: 23px;
-    top: 549px;
-    background-image: url('month2.png');
+    height: 57px;
+    left: 21px;
+    top: 509px;
+    background: #034869;
 }
 .DoneSubjCode1{
     position: absolute;
