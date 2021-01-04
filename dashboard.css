@@ -31,7 +31,7 @@ div{
 .Header{
     background-color: #E8F8FF;
     width: 1349px;
-    height: 90px;
+    height: 80px;
 }
 .header{
     text-transform: uppercase;
@@ -126,22 +126,12 @@ div{
     top: 170px;
     border: 3px solid #e8f0f3;
 }
-.subbg{
-    position: absolute;
-    width: 400px;
-    height: 200px;
-    left: 133px;
-    top: 313px;
-    background: #E8F8FF;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-}
 .subbox{
     position: absolute;
     width: 373px;
     height: 100px;
-    left: 148px;
-    top: 328px;
+    left: 15px;
+    top: 15px;
     background: rgba(38, 148, 186, 0.7);
     border-radius: 10px;
 }
@@ -150,8 +140,8 @@ div{
     white-space: nowrap;
     width: 146px;
     height: 23px;
-    left: 160px;
-    top: 339px;
+    left: 27px;
+    top: 26px;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: 500;
@@ -163,8 +153,8 @@ div{
     position: absolute;
     width: 71px;
     height: 12px;
-    left: 160px;
-    top: 361px;
+    left: 27px;
+    top: 48px;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
@@ -174,10 +164,10 @@ div{
 }
 .subprof{
     position: absolute;
-    width: 78px;
+    width: 74px;
     height: 13px;
-    left: 160px;
-    top: 373px;
+    left: 27px;
+    top: 60px;    
     font-family: Segoe UI;
     font-style: normal;
     font-weight: 300;
@@ -189,525 +179,75 @@ div{
     position: absolute;
     width: 62px;
     height: 62px;
-    left: 303px;
-    top: 397px;
+    left: 170px;
+    top: 84px;    
     background: #0A0044;
     border: 5px solid #FFFFFF;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 100px;
 }
-.num1{
-    position: absolute;
-    width: 24px;
-    height: 23px;
-    left: 158px;
-    top: 457px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 23px;
-    color: #A2B81F;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-}
-.num2{
-    position: absolute;
-    width: 24px;
-    height: 23px;
-    left: 497px;
-    top: 457px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 23px;
-    color: #1C1B54;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-}
-.activestud{
-    position: absolute;
-    width: 35px;
-    height: 6px;
-    left: 183px;
-    top: 460px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 12px;
-    color: #000000;
-}
-.totsud{
-    position: absolute;
-    width: 33px;
-    height: 6px;
-    left: 410px;
-    top: 460px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 12px;
-    color: #000000;
-}
-.activestudpercent{
-    position: absolute;
-    width: 160px;
-    height: 20px;
-    left: 158px;
-    top: 480px;
-    background: #A2B81F;
-    border-radius: 100px;
-}
-.totstudpercent{
-    position: absolute;
-    width: 363px;
-    height: 20px;
-    left: 158px;
-    top: 480px;
-    background: #1C1B54;
-    border-radius: 100px;
-}
-
-.subbg1{
+.subfile
+{
+    position:absolute;
+    width:400px;
+    height:200px;
     position: absolute;
     width: 400px;
     height: 200px;
+    left: 133px;
+    top: 313px;
+    background: #E8F8FF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.subfile1
+{
+    position:absolute;
+    width:400px;
+    height:200px;
     left: 133px;
     top: 530px;
     background: #E8F8FF;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
-.subbox1{
-    position: absolute;
-    width: 373px;
-    height: 100px;
-    left: 148px;
-    top: 545px;
-    background: rgba(38, 148, 186, 0.7);
-    border-radius: 10px;
-}
-.subname1{
-    position: absolute;
-    width: 146px;
-    height: 23px;
-    left: 160px;
-    top: 556px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
-}
-.subcode1{
-    position: absolute;
-    width: 71px;
-    height: 12px;
-    left: 160px;
-    top: 578px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    color: #000000;
-}
-.subprof1{
-    position: absolute;
-    width: 78px;
-    height: 12px;
-    left: 160px;
-    top: 590px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 12px;
-    color: #000000;
-}
-.subimage1{
-    position: absolute;
-    width: 62px;
-    height: 62px;
-    left: 303px;
-    top: 614px;
-    background: #0A0044;
-    border: 5px solid #FFFFFF;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 100px;
-}
-.num11{
-    position: absolute;
-    width: 24px;
-    height: 23px;
-    left: 158px;
-    top: 674px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 23px;
-    color: #A2B81F;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-}
-.num21{
-    position: absolute;
-    width: 24px;
-    height: 23px;
-    left: 497px;
-    top: 674px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 23px;
-    color: #1C1B54;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-}
-.activestud1{
-    position: absolute;
-    width: 35px;
-    height: 6px;
-    left: 182px;
-    top: 677px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 12px;
-    color: #000000;
-}
-.totsud1{
-    position: absolute;
-    width: 69px;
-    height: 13px;
-    left: 410px;
-    top: 677px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 12px;
-    color: #000000;
-}
-.activestudpercent1{
-    position: absolute;
-    width: 160px;
-    height: 20px;
-    left: 158px;
-    top: 697px;
-    background: #A2B81F;
-    border-radius: 100px;
-}
-.totstudpercent1{
-    position: absolute;
-    width: 363px;
-    height: 20px;
-    left: 158px;
-    top: 697px;
-    background: #1C1B54;
-    border-radius: 100px;
-}
-
-.subbg2{
-    position: absolute;
-    width: 400px;
-    height: 200px;
+.subfile2
+{
+    position:absolute;
+    width:400px;
+    height:200px;
     left: 553px;
     top: 313px;
     background: #E8F8FF;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
-.subbox2{
-    position: absolute;
-    width: 373px;
-    height: 100px;
-    left: 568px;
-    top: 328px;
-    background: rgba(38, 148, 186, 0.7);
-    border-radius: 10px;
-}
-.subname2{
-    position: absolute;
-    width: 292px;
-    height: 27px;
-    left: 580px;
-    top: 339px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
-}
-.subcode2{
-    position: absolute;
-    width: 27px;
-    height: 13px;
-    left: 580px;
-    top: 361px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    color: #000000;
-}
-.subprof2{
-    position: absolute;
-    width: 74px;
-    height: 13px;
-    left: 580px;
-    top: 373px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 12px;
-    color: #000000;
-}
-.subimage2{
-    position: absolute;
-    width: 62px;
-    height: 62px;
-    left: 718px;
-    top: 397px;
-    background: #0A0044;
-    border: 5px solid #FFFFFF;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 100px;
-}
-.num12{
-    position: absolute;
-    width: 24px;
-    height: 27px;
-    left: 578px;
-    top: 457px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 23px;
-    color: #A2B81F;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-}
-.num22{
-    position: absolute;
-    width: 24px;
-    height: 27px;
-    left: 917px;
-    top: 457px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 23px;
-    color: #1C1B54;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-}
-.activestud2{
-    position: absolute;
-    width: 69px;
-    height: 13px;
-    left: 604px;
-    top: 460px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 12px;
-    color: #000000;
-}
-.totsud2{
-    position: absolute;
-    width: 63px;
-    height: 13px;
-    left: 828px;
-    top: 460px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 12px;
-    color: #000000;
-}
-.activestudpercent2{
-    position: absolute;
-    width: 231px;
-    height: 20px;
-    left: 578px;
-    top: 480px;
-    background: #A2B81F;
-    border-radius: 100px;
-}
-.totstudpercent2{
-    position: absolute;
-    width: 363px;
-    height: 20px;
-    left: 578px;
-    top: 480px;
-    background: #1C1B54;
-    border-radius: 100px;
-}
-
-.subbg3{
-    position: absolute;
-    width: 400px;
-    height: 200px;
+.subfile3
+{
+    position:absolute;
+    width:400px;
+    height:200px;
     left: 553px;
     top: 531px;
     background: #E8F8FF;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
-.subbox3{
-    position: absolute;
-    width: 373px;
-    height: 100px;
-    left: 568px;
-    top: 546px;
-    background: rgba(38, 148, 186, 0.7);
-    border-radius: 10px;
-}
-.subname3{
-    position: absolute;
-    width: 205px;
-    height: 27px;
-    left: 580px;
-    top: 557px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    color: #000000;
-}
-.subcode3{
-    position: absolute;
-    width: 27px;
-    height: 13px;
-    left: 580px;
-    top: 579px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    color: #000000;
-}
-.subprof3{
-    position: absolute;
-    width: 72px;
-    height: 13px;
-    left: 580px;
-    top: 591px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 12px;
-    color: #000000;
-}
-.subimage3{
-    position: absolute;
-    width: 62px;
-    height: 62px;
-    left: 718px;
-    top: 615px;
-    background: #0A0044;
-    border: 5px solid #FFFFFF;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 100px;
-}
-.num13{
-    position: absolute;
-    width: 24px;
-    height: 27px;
-    left: 578px;
-    top: 671px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 23px;
-    color: #A2B81F;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-}
-.num23{
-    position: absolute;
-    width: 24px;
-    height: 27px;
-    left: 917px;
-    top: 671px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 23px;
-    color: #1C1B54;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-}
-.activestud3{
-    position: absolute;
-    width: 35px;
-    height: 7px;
-    left: 602px;
-    top: 674px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 12px;
-    color: #000000;
-}
-.totsud3{
-    position: absolute;
-    width: 32px;
-    height: 7px;
-    left: 828px;
-    top: 675px;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 12px;
-    color: #000000;
-}
-.activestudpercent3{
-    position: absolute;
-    width: 231px;
-    height: 20px;
-    left: 578px;
-    top: 697px;
-    background: #A2B81F;
-    border-radius: 100px;
-}
-.totstudpercent3{
-    position: absolute;
-    width: 363px;
-    height: 20px;
-    left: 578px;
-    top: 697px;
-    background: #1C1B54;
-    border-radius: 100px;
-}
+
+/*box*/
 .Todolist{
     position: absolute;
     width: 344px;
     height: 610px;
     left: 995px;
-    top: 128px;
+    top: 100px;
     background: #E8F8FF;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
+/*box*/
+
 .Todolisttext{
     position: absolute;
     width: 103px;
@@ -1006,6 +546,8 @@ div{
     top: 384px;
     border: 1px solid rgba(0, 0, 0, 0.7);
 }
+
+/*done part*/
 
 .Donetext
 {
