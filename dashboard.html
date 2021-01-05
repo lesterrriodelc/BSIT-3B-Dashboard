@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
-    <div class="navigation">
-        <a href="#">
-             <span class="side-bar"></span>
-        </a>
-    </div>
-    <div class="container">
+    <nav class="nav">
+        <span class="side-bar" onclick="openNav()"></span>
+    </nav>
+    <nav id ="navigation" class="navigation">
+        <a href="#" class="closebtn" onclick="closeNav()"> &times; </a>
+        <a href="#"> Home </a>
+        <a href="#"> About </a>
+    </nav>
+
+    <div id= "container" class="container">
         <div class="Dash">
             <div class="Header">
                 <header class="header">Dashboard</header>
