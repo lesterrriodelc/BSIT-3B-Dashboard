@@ -45,9 +45,7 @@ div{
     height: 50px;
     left: 15px;
     top: 20px;
-    border-radius: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    background-image: url('bars-solid.svg');
+    background-image: url('menu_bar.png');
 }
 .Dash{
     
@@ -151,6 +149,47 @@ div{
     top: 170px;
     border: 3px solid #e8f0f3;
 }
+
+.p_icon
+{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 8px;
+    top: 7px;
+    background: url('profile_icon.png');
+}
+.clickprofile
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 163px;
+    top: 158px;
+
+    background: #D2D2D2;
+    border-radius: 5px;
+}
+.f_icon
+{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 8px;
+    top: 7px;
+    background: url('folder_icon.png');
+}
+.clickfolder
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 208px;
+    top: 158px;
+    background: #D2D2D2;
+    border-radius: 5px;
+}
+
 .subbox{
     position: absolute;
     width: 373px;
