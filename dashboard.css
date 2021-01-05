@@ -69,6 +69,17 @@ div{
     font-size: 40px;
     line-height: 59px;
 }
+
+.rdprofile:link
+{
+    text-decoration: none;
+}
+
+.rdprofile:hover
+{
+    text-decoration: underline;
+}
+
 .StudProfileBG{
     position: relative;
     width: 853px;
@@ -99,6 +110,7 @@ div{
     font-weight: 900;
     font-size: 40px;
     line-height: 47px;
+    text-decoration: none;
     color: #1B1B1B;
 }
 .Student{
@@ -212,6 +224,10 @@ div{
     font-size: 20px;
     line-height: 23px;
     color: #000000;
+}
+.rdsub
+{
+    text-decoration:underline;
 }
 .subcode{
     position: absolute;
