@@ -15,6 +15,9 @@ div{
     height: 768px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
+.nav:hover{
+    cursor: pointer;
+}
 .navigation{
     height: 100%;
     width: 0px;
@@ -51,6 +54,17 @@ div{
     
     height: 768px;
 }
+
+.dashb
+{
+    text-decoration: none;
+    color: black;
+}
+.dashb:hover
+{
+    cursor:pointer;
+    text-decoration: none;
+}
 .Header{
     background-color: #E8F8FF;
     width: 1349px;
@@ -73,11 +87,18 @@ div{
 .rdprofile:link
 {
     text-decoration: none;
+    cursor: pointer;
+
 }
 
-.rdprofile:hover
+#rdsubp:hover
 {
-    text-decoration: underline;
+    cursor: pointer;
+}
+
+#crsrchange
+{
+    cursor: pointer;
 }
 
 .StudProfileBG{
@@ -201,7 +222,6 @@ div{
     background: #D2D2D2;
     border-radius: 5px;
 }
-
 .subbox{
     position: absolute;
     width: 373px;
